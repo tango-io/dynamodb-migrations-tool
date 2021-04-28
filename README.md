@@ -1,4 +1,4 @@
-🧨 dynamit-cli
+🧨 dynamiter-cli
 ==============
 
 The DynamoDB Migrations Tool Command Line Interface (CLI).

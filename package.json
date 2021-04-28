@@ -1,10 +1,10 @@
 {
-  "name": "dynamit-cli",
-  "version": "0.0.0-development",
+  "name": "dynamiter-cli",
+  "version": "1.5.2",
   "description": "The DynamoDB migrations tool CLI",
   "bin": {
-    "dynamit": "./dist/dynamit",
-    "dynamit-cli": "./dist/dynamit"
+    "dynamiter": "./dist/dynamiter",
+    "dynamiter-cli": "./dist/dynamiter"
   },
   "files": [
     ".plop",
@@ -14,7 +14,7 @@
   ],
   "scripts": {
     "build": "npm run build-clean && tsc && npm run build-bin",
-    "build-bin": "mv ./dist/index.js ./dist/dynamit && chmod +x ./dist/dynamit",
+    "build-bin": "mv ./dist/index.js ./dist/dynamiter && chmod +x ./dist/dynamiter",
     "build-clean": "rm -rf ./dist/",
     "lint": "eslint . --ext .ts --ignore-path .gitignore",
     "pretest": "npm run lint",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/floydspace/dynamodb-migrations-tool.git"
+    "url": "https://github.com/tango-io/dynamodb-migrations-tool.git"
   },
   "keywords": [
     "cli",
@@ -40,9 +40,9 @@
   "author": "Victor Korzunin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/floydspace/dynamodb-migrations-tool/issues"
+    "url": "https://github.com/tango-io/dynamodb-migrations-tool/issues"
   },
-  "homepage": "https://floydspace.github.io/dynamodb-migrations-tool",
+  "homepage": "https://tango-io.github.io/dynamodb-migrations-tool",
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
