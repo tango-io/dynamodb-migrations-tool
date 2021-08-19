@@ -1,6 +1,6 @@
 {
   "name": "dynamiter-cli",
-  "version": "1.5.2",
+  "version": "1.5.5",
   "description": "The DynamoDB migrations tool CLI",
   "bin": {
     "dynamiter": "./dist/dynamiter",
